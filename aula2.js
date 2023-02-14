@@ -91,7 +91,7 @@ const cliente = {
   ],
   saldo: 100,
   depositar: function (valor) {
-    this.saldo += valor; // this este objeto
+    this.saldo += valor; // this = este objeto
   },
 };
 
